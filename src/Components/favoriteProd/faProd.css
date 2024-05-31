@@ -1,0 +1,51 @@
+.cont-faProd{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: none;
+  
+}
+.trend{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  
+}
+.title-trend h5{
+  font-weight: 700;
+}
+
+@media (max-width:600px) {
+  .cont-faProd{
+    padding: 10px;
+  }
+  .trend{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 30px;
+    
+  }
+
+  
+}
+
+@media (min-width:600px) and (max-width:900px) {
+  .cont-faProd{
+    padding: 10px;
+  }
+  .trend{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 30px;
+    margin-top: -10px ;
+    
+  }
+
+  
+}
+
+
+

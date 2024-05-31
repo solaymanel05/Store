@@ -1,0 +1,46 @@
+
+.App .App-cont{
+  padding: 0 200px;
+  background-color: white;
+}
+.App2 .App-cont2{
+  background-color: white;
+  padding: 0 200px;
+}
+
+.scroll-to-top {
+  position: fixed; /* Fix the button in a specific location */
+  bottom: 20px; /* Position it at the bottom */
+  right: 20px; /* Position it at the right */
+  padding: 10px;
+  background-color: #000000; /* Blue color */
+  color: rgb(255, 255, 255); /* White text */
+  border: none;
+  cursor: pointer;
+  border-radius: 50%; /* Circular shape */
+  font-size: 13px; /* Larger font for visibility */
+  transition: all 0.7s ease-in-out; /* Smooth transition */
+}
+
+.scroll-to-top:hover {
+  background-color: #373838; /* Darken on hover */
+  color: azure;
+}
+
+.scroll-to-top:focus {
+  outline: none; /* No outline on focus */
+}
+
+@media screen and (max-width: 900px) {
+  
+  
+ 
+  .App .App-cont{
+  padding: 0;
+  
+  }
+  .App2 .App-cont2{
+  padding: 0;
+  }
+
+}
